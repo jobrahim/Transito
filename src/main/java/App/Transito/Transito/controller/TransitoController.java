@@ -1,6 +1,5 @@
 package App.Transito.Transito.controller;
 
-
 import App.Transito.Transito.request.ConductorDTO;
 import App.Transito.Transito.response.MultaDTO;
 import App.Transito.Transito.service.RevisarMultasService;

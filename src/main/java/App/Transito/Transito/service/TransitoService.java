@@ -5,9 +5,10 @@ import App.Transito.Transito.request.ConductorDTO;
 import App.Transito.Transito.response.MultaDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-
+@Service
 public class TransitoService {
 
     private final Logger log = LoggerFactory.getLogger(TransitoController.class);
