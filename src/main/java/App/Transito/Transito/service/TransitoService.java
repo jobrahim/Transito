@@ -62,7 +62,7 @@ public class TransitoService {
         log.info("Ingresando a la clase [TransitoService]");
         MultaDTO mensaje1 = new MultaDTO();
 
-        mensaje1.setMensaje(cargarMensaje().get(0));
+        mensaje1.setMensaje(cargarMensaje().get(1));
 
         return mensaje1;
     }
@@ -71,7 +71,7 @@ public class TransitoService {
         log.info("Ingresando a la clase [TransitoService]");
         MultaDTO mensaje2 = new MultaDTO();
 
-        mensaje2.setMensaje(cargarMensaje().get(0));
+        mensaje2.setMensaje(cargarMensaje().get(2));
 
         return mensaje2;
     }
@@ -98,7 +98,7 @@ public class TransitoService {
     private ArrayList<String> cargarMensaje() {
 
         ArrayList<String> ListaDeChoferes = new ArrayList();
-        ListaDeChoferes.add("Detener al ciudadano y decomizar auto");
+        ListaDeChoferes.add("Detener al ciudadano y decomisar el vehiculo");
         ListaDeChoferes.add("Ciudadano debe 4.500 $  por exceso de Velocidad en Av Elcano");
         ListaDeChoferes.add("No posee Multas");
         return ListaDeChoferes;
